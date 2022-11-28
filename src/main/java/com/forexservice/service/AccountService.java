@@ -25,7 +25,8 @@ public class AccountService {
         return accountRepository.save(account);
     }
 	
-	public void deleteAccount(String accountNumber){
+	public void deleteAccount(String accountNumber)
+	{
         Account c=accountRepository.findByAccountNumber(accountNumber);
         	accountRepository.deleteById(c.getAccountId());
     }

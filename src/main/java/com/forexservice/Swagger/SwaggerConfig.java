@@ -45,7 +45,7 @@ public class SwaggerConfig {
 
     private ApiInfo metaData() {
         return new ApiInfoBuilder()
-                .title("Forex - Spring Boot Swagger Configuration")
+                .title("Forex Service Application")
                 .description("\"Swagger configuration for application \"")
                 .version("1.1.0")
                 .license("Apache 2.0")
